@@ -1,0 +1,1 @@
+"""O melhor caso se aplica quando todos os elemntos do arranjo são ímpares O(n log n), já o pior caso, quando todos são pares O(n^2)"""

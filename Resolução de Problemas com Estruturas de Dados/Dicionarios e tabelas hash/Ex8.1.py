@@ -1,0 +1,1 @@
+"""A complexidade, no pior caso dessa sistuação é O(n)"""

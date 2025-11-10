@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-color: #f2f2f2;
+        }
+        h1{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .card{
+            background-color: #3498db;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            padding: 40px 0px;
+            flex: 1 1 calc(25% - 32px);
+            box-sizing: border-box;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px black;
+            transition: transform 0.3s ease;
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        @media(max-width: 1023px){
+            .card{
+                flex: 1 1 calc(50% - 32px);
+            }
+        }
+        @media(max-width: 767px){
+            .card{
+                flex: 1 1 100%;
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria Responsiva</h1>
+    <div class="container">
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+        <div class="card">5</div>
+        <div class="card">6</div>
+        <div class="card">7</div>
+        <div class="card">8</div>
+    </div>
+</html>

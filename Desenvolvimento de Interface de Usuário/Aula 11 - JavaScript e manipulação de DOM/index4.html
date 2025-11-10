@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+    </style>
+    <title>DOM JS</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <img src="logo_udesc_sigla.jpg" alt="" width="150px">
+    <br>
+    <br>
+    <input type="password" name="senha" id="senha" placeholder="Informe a senha" size="40">
+    <button id="mostrar" onclick="mostrarSenha()">Mostrar senha</button>
+    <br>
+    <br>
+    <button id="botao" onclick="clicou()">Mudar cor</button>
+
+    <script>
+        function clicou(){
+            let cores = ["lightblue", "aliceblue", "wheat"];
+            let corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+            document.body.style.backgroundColor = corAleatoria
+        }
+
+        function mostrarSenha(){
+            let input = document.querySelector("#senha");
+            let mostrar = document.querySelector("#mostrar");
+            let img = document.querySelector("img");
+
+            if(input.type === "password"){
+                input.type = "text";
+                mostrar.innerText = "Ocultar senha";
+                img.style.width = "200px";
+            } else{
+                input.type = "password"
+                mostrar.innerText = "Mostrar senha";
+                img.style.width = "150px";
+            }
+        }
+    </script>
+
+</body>
+</html>

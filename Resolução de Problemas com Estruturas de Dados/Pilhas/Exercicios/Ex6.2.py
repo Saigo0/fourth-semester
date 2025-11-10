@@ -1,0 +1,1 @@
+#O valor final de t seria 17 (18-1)

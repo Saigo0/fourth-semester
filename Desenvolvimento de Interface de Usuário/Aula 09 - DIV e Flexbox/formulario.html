@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 02</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container{
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgb(26, 26, 26);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .form-container h2{
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .form-group{
+            margin-bottom: 20px;
+
+        }
+
+        .form-group label{  
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .form-group input, .form-group textarea, .form-group select{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus{
+            outline: none;
+            border-color: #4a90e2;
+        }
+
+        .form-group textarea{
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .submit-btn{
+            width: 100%;
+            padding: 12px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            transition: transform 0.3s ease;
+        }
+
+        .submit-btn:hover{
+            background-color: #357ab8;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulário de Contato</h2>
+        <form action="envio.php" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="">Selecione</option>
+                    <option value="chevette">Chevette</option>
+                    <option value="turbao">Turbão</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

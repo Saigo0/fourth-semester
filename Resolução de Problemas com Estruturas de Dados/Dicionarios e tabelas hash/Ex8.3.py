@@ -1,0 +1,1 @@
+"""A complexidade asssintótica de tempo no pior caso dessas inserções fica em O(n), já no melhor caso fica em O(1)"""

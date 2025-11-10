@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a743de36-39b9-420f-8aec-0ff19fd7644f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="311INaeuLMT6z0JOtopJ1vgUMhi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.analisa_numeros.executor": "Run",
+    "Python.apresenta_numeros.executor": "Run",
+    "Python.area_triangulo.executor": "Run",
+    "Python.aumento_salario.executor": "Run",
+    "Python.aumento_salario_faixa.executor": "Run",
+    "Python.converte_tempo.executor": "Run",
+    "Python.divisao_resto.executor": "Run",
+    "Python.emprestimo.executor": "Run",
+    "Python.energia_eletrica.executor": "Run",
+    "Python.insere_numero.executor": "Run",
+    "Python.maior_menor.executor": "Run",
+    "Python.multa.executor": "Run",
+    "Python.multiplicacao.executor": "Run",
+    "Python.multiplos.executor": "Run",
+    "Python.nota_ponderada.executor": "Run",
+    "Python.opera_real.executor": "Run",
+    "Python.operacao.executor": "Run",
+    "Python.ordem_crescente.executor": "Run",
+    "Python.preco_viagem.executor": "Run",
+    "Python.soma_variaveis.executor": "Run",
+    "Python.triangulo_angulos.executor": "Run",
+    "Python.triangulo_lados.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/joseo/OneDrive/Documentos/GitHub/ExerciciosFaculdade/Resolução de Problemas com Estruturas de Dados/Introdução ao Python/Python_Exercises"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b3ae9b5d7125-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.439" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a743de36-39b9-420f-8aec-0ff19fd7644f" name="Changes" comment="" />
+      <created>1754685115181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754685115181</updated>
+    </task>
+    <servers />
+  </component>
+</project>

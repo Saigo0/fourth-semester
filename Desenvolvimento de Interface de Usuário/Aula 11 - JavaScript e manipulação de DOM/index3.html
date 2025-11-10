@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aula de DOM</h1>
+    <p id="paragrafo">Um texto qualquer falando algo</p>
+    <label for="numero">Informe um número</label>
+    <input type="number" name="numero" id="numero">
+    <button id="enviarmsg" onclick="clicou()">Clicar</button>
+    <script>
+        function clicou(){
+            let h1 = document.querySelector("h1");
+            h1.innerHTML = "Outro texto qualquer";
+            h1.style.color = "red";
+            console.log(h1);
+            
+            let body = document.querySelector("body");
+            body.style.backgroundColor = "wheat";
+
+            let paragrafo = document.querySelector("p");
+            paragrafo.style.fontSize = "40px";
+
+            let valor = document.querySelector("#numero").value;
+            alert(valor);
+        }
+    </script>
+</body>
+</html>

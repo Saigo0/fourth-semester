@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 03</title>
+    <style>
+        .container{
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+            background-color: rgb(164, 162, 255);
+        }
+        .div1, .div2{
+            flex: 1;
+            background-color: rgb(114, 0, 0);
+            margin: 20px;
+            padding: 20px;
+            font-size: medium;
+            color: aquamarine;
+        }
+        .div3{
+            flex: 2;
+            background-color: blueviolet;
+            margin: 20px;
+            padding: 20px;
+            font-size: medium;
+            color: aquamarine;
+        }
+        .div4{
+            flex: 1;
+            background-color: green;
+            margin: 20px;
+            padding: 20px;
+            font-size: medium;
+            color:antiquewhite;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+    </div>
+    <div class="container">
+        <div class="div4">A</div>
+        <div class="div4">B</div>
+        <div class="div4">C</div>
+    </div>
+</body>
+</html>

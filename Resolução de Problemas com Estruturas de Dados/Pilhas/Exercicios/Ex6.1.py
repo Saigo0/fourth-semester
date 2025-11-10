@@ -1,0 +1,1 @@
+#3 pops seguidos com a pilha vazia, depois 25 pushes e 7 pops. Isso significa que o saldo de pushes ficará igual a 18.

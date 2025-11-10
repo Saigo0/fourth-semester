@@ -1,0 +1,1 @@
+"""No pior caso, a complexidade de tempo para esas remoções fica em O(n)"""

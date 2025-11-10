@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="processamento.php" method = "get">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade">
+            <br>
+            <label for="sexo">Masculino</label>
+            <input type="radio" name="Masculino" id="sexoMasculino" value="M">
+            <br>
+            <label for="sexo">Feminino</label>
+            <input type="radio" name="Feminino" id="sexoFeminino" value="F">
+            <input type="submit" name="Enviar" id="enviar">
+        </form>
+        <a href="index.html">Voltar</a>
+    </main>
+    
+</body>
+</html>
