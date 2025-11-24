@@ -125,6 +125,12 @@ elementos_str = " ".join(map(str, elementos_ordenados))
 
 print(f"{tamanho} ({elementos_str})")
 
+
+
+"""
+
+"""
+
         
     
 
